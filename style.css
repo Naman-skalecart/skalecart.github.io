@@ -70,23 +70,12 @@ color:#EAEAEA;
 }
 
 .hero-container{
-display:flex;
-align-items:flex-start;
-justify-content:space-between;
+display:grid;
+grid-template-columns:1fr 420px;
+align-items:start;
 gap:80px;
 max-width:1400px;
 margin:auto;
-}
-
-.hero-left{
-flex:1;
-}
-
-.hero-right{
-flex:1;
-display:flex;
-justify-content:center;
-padding-top:20px;
 }
 
 .hero h1{
