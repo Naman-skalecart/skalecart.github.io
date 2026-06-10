@@ -61,15 +61,17 @@ font-weight:600;
 }
 
 .hero h1{
-font-size:72px;
-margin-bottom:20px;
+font-size:64px;
+line-height:1.15;
+margin-bottom:25px;
 }
 
 .hero p{
-max-width:800px;
+max-width:750px;
 margin:auto;
-font-size:20px;
-line-height:1.8;
+font-size:22px;
+line-height:1.7;
+opacity:.9;
 }
 
 .hero-buttons{
@@ -77,6 +79,30 @@ margin-top:40px;
 display:flex;
 justify-content:center;
 gap:20px;
+}
+
+.trust-bar{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:40px 8%;
+background:white;
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.trust-item{
+text-align:center;
+}
+
+.trust-item h3{
+font-size:32px;
+color:#0B1F3A;
+margin-bottom:8px;
+}
+
+.trust-item p{
+color:#666;
+font-size:15px;
 }
 
 .gold-btn{
@@ -178,3 +204,4 @@ background:#081527;
 color:white;
 text-align:center;
 }
+
