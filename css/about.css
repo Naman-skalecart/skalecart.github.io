@@ -801,7 +801,7 @@ FINAL CTA
 
 }
 
-.cta-wrapper{
+.cta-content{
 
     max-width:900px;
 
@@ -863,7 +863,7 @@ FINAL CTA
 
 }
 
-.outline-dark{
+.outline-btn-dark{
 
     display:inline-flex;
 
@@ -889,7 +889,7 @@ FINAL CTA
 
 }
 
-.outline-dark:hover{
+.outline-btn-dark:hover{
 
     background:#0B1F3A;
 
