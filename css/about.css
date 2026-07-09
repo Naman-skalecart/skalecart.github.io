@@ -7,6 +7,21 @@
     max-width:90%;
     margin:0 auto;
 }
+.about-hero .hero-content{
+    max-width:760px;
+}
+
+.hero-badge{
+    display:inline-block;
+    padding:8px 20px;
+    background:#C89B4B;
+    color:#0B1F3A;
+    border-radius:50px;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:.5px;
+    margin-bottom:20px;
+}
 header{
     position:absolute;
     top:0;
