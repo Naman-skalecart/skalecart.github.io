@@ -10,19 +10,21 @@ color:#111;
 }
 
 nav{
+position:absolute;
+top:0;
+left:0;
+width:100%;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 8%;
-background:white;
-box-shadow:0 2px 15px rgba(0,0,0,.05);
-position:sticky;
-top:0;
+padding:28px 8%;
+background:transparent;
+box-shadow:none;
 z-index:1000;
 }
 
 .logo img{
-height:60px;
+height:54px;
 }
 
 nav ul{
@@ -33,7 +35,7 @@ list-style:none;
 
 nav a{
 text-decoration:none;
-color:#0B1F3A;
+color:#ffffff;
 font-weight:500;
 }
 
