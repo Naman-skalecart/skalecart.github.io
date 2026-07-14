@@ -396,3 +396,101 @@
     color:#666;
     line-height:1.7;
 }
+
+.engagement-section{
+    padding:120px 0;
+    background:#ffffff;
+}
+
+.engagement-section .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.engagement-section .section-heading{
+    text-align:center;
+    margin:0 auto 70px;
+}
+
+.engagement-section .section-heading h2{
+    margin-top:20px;
+    font-size:40px;
+    line-height:1.25;
+    color:#0B1F3A;
+    letter-spacing:-1px;
+}
+
+.engagement-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:32px;
+    align-items:start;
+}
+
+.engagement-card{
+    position:relative;
+    background:#ffffff;
+    border:1px solid #ECECEC;
+    border-radius:20px;
+    padding:40px 32px;
+}
+
+.engagement-card.featured{
+    border:2px solid #C89B4B;
+    box-shadow:0 25px 60px rgba(0,0,0,.08);
+}
+
+.most-popular{
+    position:absolute;
+    top:-14px;
+    left:50%;
+    transform:translateX(-50%);
+    background:#C89B4B;
+    color:#0B1F3A;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.5px;
+    padding:6px 16px;
+    border-radius:50px;
+}
+
+.engagement-icon{
+    display:block;
+    font-size:26px;
+    margin-bottom:22px;
+}
+
+.engagement-card h3{
+    font-size:22px;
+    color:#0B1F3A;
+    margin-bottom:14px;
+}
+
+.engagement-card p{
+    font-size:15px;
+    color:#666;
+    line-height:1.75;
+    margin-bottom:24px;
+}
+
+.engagement-card ul{
+    list-style:none;
+    padding:0;
+}
+
+.engagement-card li{
+    position:relative;
+    padding-left:26px;
+    margin-bottom:12px;
+    font-size:14px;
+    color:#333;
+}
+
+.engagement-card li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    color:#C89B4B;
+    font-weight:700;
+}
