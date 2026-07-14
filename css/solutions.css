@@ -271,3 +271,79 @@
     color:#666;
     line-height:1.7;
 }
+
+.diagnose-section{
+    padding:120px 0;
+    background:#ffffff;
+}
+
+.diagnose-section .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.diagnose-section .section-heading{
+    text-align:center;
+    margin:0 auto 80px;
+}
+
+.diagnose-section .section-heading h2{
+    margin-top:20px;
+    font-size:40px;
+    line-height:1.25;
+    color:#0B1F3A;
+    letter-spacing:-1px;
+}
+
+.diagnose-steps{
+    position:relative;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.diagnose-steps::before{
+    content:"";
+    position:absolute;
+    top:26px;
+    left:10%;
+    right:10%;
+    height:0;
+    border-top:2px dashed #C89B4B;
+    z-index:0;
+}
+
+.diagnose-step{
+    position:relative;
+    z-index:1;
+    text-align:center;
+}
+
+.step-number{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:52px;
+    height:52px;
+    border-radius:50%;
+    background:#0B1F3A;
+    color:#C89B4B;
+    font-size:16px;
+    font-weight:700;
+    margin:0 auto 24px;
+}
+
+.diagnose-step h3{
+    font-size:19px;
+    color:#0B1F3A;
+    margin-bottom:10px;
+}
+
+.diagnose-step p{
+    font-size:14px;
+    color:#666;
+    line-height:1.7;
+    max-width:200px;
+    margin:0 auto;
+}
