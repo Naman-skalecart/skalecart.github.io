@@ -76,38 +76,35 @@
     margin-bottom:20px;
 }
 
-.card-back p,
-.card-mid p{
-    position:absolute;
-    bottom:28px;
-    left:28px;
+.card-front{
+    top:70px;
+    left:0;
+    z-index:3;
+    display:flex;
+    align-items:flex-end;
+}
+
+.card-mid{
+    top:20px;
+    left:170px;
+    transform:rotate(6deg);
+    opacity:.85;
+    z-index:2;
+}
+
+.card-back{
+    top:0;
+    left:230px;
+    transform:rotate(12deg);
+    opacity:.6;
+    z-index:1;
 }
 
 .stack-icon{
     display:block;
     font-size:22px;
-    margin-bottom:180px;
-}
-
-.card-back{
-    top:0;
-    right:0;
-    transform:rotate(8deg);
-    opacity:.6;
-}
-
-.card-mid{
-    top:20px;
-    right:40px;
-    transform:rotate(3deg);
-    opacity:.85;
-}
-
-.card-front{
-    top:50px;
-    right:90px;
-    display:flex;
-    align-items:flex-end;
+    margin-top:24px;
+    margin-left:24px;
 }
 
 .card-quote{
