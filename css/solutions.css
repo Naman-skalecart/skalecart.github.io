@@ -81,7 +81,14 @@
     left:0;
     z-index:3;
     display:flex;
-    align-items:flex-end;
+    flex-direction:column;
+    justify-content:flex-end;
+    gap:20px;
+}
+
+.growth-chart{
+    width:100%;
+    height:auto;
 }
 
 .card-mid{
