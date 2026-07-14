@@ -1,12 +1,10 @@
-.container{
-    width:1200px;
-    max-width:90%;
-    margin:0 auto;
+nav{
+    background:#071B36;
 }
 
 .solutions-hero{
     background-image:url('../images/hero-bg.png');
-    background-size:2100px auto;
+    background-size:1800px auto;
     background-position:right center;
     background-repeat:no-repeat;
     padding:140px 0 90px;
