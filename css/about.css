@@ -565,201 +565,100 @@ nav ul li a.active{
 ========================================= */
 
 .success-section{
-
-    padding:140px 0;
-
+    padding:120px 0;
     background:#ffffff;
-
 }
 
 .success-section .container{
-
     width:1200px;
     max-width:90%;
     margin:0 auto;
-
 }
 
 .success-layout{
-
     display:grid;
-
-    grid-template-columns:40% 60%;
-
-    gap:100px;
-
-    align-items:flex-start;
-
+    grid-template-columns:1fr 1fr;
+    gap:80px;
+    align-items:start;
 }
 
-.success-title h2{
-
+.success-col h2{
     margin-top:20px;
-
-    font-size:48px;
-
-    line-height:1.15;
-
+    margin-bottom:32px;
+    font-size:34px;
+    line-height:1.25;
     color:#0B1F3A;
-
     letter-spacing:-1px;
-
 }
 
-.success-content{
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:45px;
-
-}
-
-.success-item{
-
-    padding-bottom:38px;
-
-    border-bottom:1px solid #ECECEC;
-
-}
-
-.success-item:last-child{
-
-    border-bottom:none;
-
-    padding-bottom:0;
-
-}
-
-.success-item h3{
-
-    font-size:28px;
-
-    color:#0B1F3A;
-
-    margin-bottom:15px;
-
-}
-
-.success-item p{
-
-    font-size:18px;
-
-    color:#666;
-
+.success-col p{
+    font-size:17px;
     line-height:1.9;
-
+    color:#666;
+    margin-bottom:18px;
 }
 
-/* =========================================
-   OUR VISION
-========================================= */
-
-.vision-section{
-
-    padding:160px 0;
-
-    background:#071B36;
-
-    color:#ffffff;
-
-    position:relative;
-
-    overflow:hidden;
-
+.stats-row{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:36px;
 }
 
-.vision-section .container{
+.stat-item h3{
+    font-size:38px;
+    color:#C89B4B;
+    margin-bottom:6px;
+}
 
-    width:1000px;
+.stat-item p{
+    font-size:15px;
+    color:#666;
+    margin:0;
+}
+
+.insight-quote{
+    padding:0 0 120px;
+    background:#ffffff;
+}
+
+.insight-quote .container{
+    width:1200px;
     max-width:90%;
     margin:0 auto;
-
-    text-align:center;
-
 }
 
-.vision-section .section-tag{
-
-    background:rgba(255,255,255,.08);
-
-    color:#C89B4B;
-
-    border:1px solid rgba(255,255,255,.12);
-
+.quote-box{
+    position:relative;
+    background:#FFF5E4;
+    border-radius:24px;
+    padding:50px 60px;
+    display:grid;
+    grid-template-columns:auto 1fr auto;
+    gap:40px;
+    align-items:center;
 }
 
-.vision-section h2{
-
-    margin:28px auto;
-
+.quote-mark{
     font-size:60px;
-
-    line-height:1.15;
-
-    max-width:850px;
-
-    letter-spacing:-1.5px;
-
-}
-
-.vision-section> .container>p{
-
-    max-width:720px;
-
-    margin:0 auto;
-
-    font-size:20px;
-
-    line-height:1.9;
-
-    color:rgba(255,255,255,.75);
-
-}
-
-.vision-quote{
-
-    margin-top:90px;
-
-    padding-top:70px;
-
-    border-top:1px solid rgba(255,255,255,.12);
-
-}
-
-.vision-quote p{
-
-    font-size:34px;
-
-    line-height:1.6;
-
-    font-weight:300;
-
-    color:#ffffff;
-
-    max-width:900px;
-
-    margin:0 auto;
-
-}
-
-.vision-quote span{
-
-    display:block;
-
-    margin-top:35px;
-
     color:#C89B4B;
-
-    font-size:18px;
-
-    font-weight:600;
-
-    letter-spacing:1px;
-
+    line-height:1;
+    font-weight:700;
 }
 
+.quote-text p{
+    margin-top:14px;
+    font-size:22px;
+    line-height:1.5;
+    color:#0B1F3A;
+    font-weight:500;
+}
+
+.quote-sub{
+    max-width:220px;
+    font-size:15px;
+    line-height:1.7;
+    color:#666;
+}
 /* =========================================
 FINAL CTA
 ========================================= */
