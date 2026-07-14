@@ -1,9 +1,9 @@
 .solutions-hero{
     background-image:url('../images/hero-bg.png');
-    background-size:cover;
-    background-position:right -250px center;
+    background-size:1500px auto;
+    background-position:right center;
     background-repeat:no-repeat;
-    padding:180px 0 120px;
+    padding:140px 0 90px;
     overflow:hidden;
 }
 
