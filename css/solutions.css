@@ -1,3 +1,9 @@
+.container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
 .solutions-hero{
     background-image:url('../images/hero-bg.png');
     background-size:2100px auto;
