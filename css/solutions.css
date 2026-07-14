@@ -1,7 +1,7 @@
 .solutions-hero{
     background-image:url('../images/hero-bg.png');
     background-size:cover;
-    background-position:center right;
+    background-position:right -250px center;
     background-repeat:no-repeat;
     padding:180px 0 120px;
     overflow:hidden;
@@ -32,7 +32,7 @@
 }
 
 .hero-left{
-    max-width:600px;
+    max-width:520px;
 }
 
 .hero-left h1{
