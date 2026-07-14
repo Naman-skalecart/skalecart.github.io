@@ -70,10 +70,17 @@
     box-shadow:0 30px 60px rgba(0,0,0,.35);
 }
 
-.stack-card p{
-    color:#ffffff;
-    font-size:15px;
-    font-weight:500;
+.stack-icon{
+    display:block;
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.card-back p,
+.card-mid p{
+    position:absolute;
+    bottom:28px;
+    left:28px;
 }
 
 .stack-icon{
@@ -246,6 +253,7 @@
     border-radius:18px;
     padding:28px 22px;
     transition:.35s;
+    min-height:260px;
 }
 
 .pillar-card:hover{
