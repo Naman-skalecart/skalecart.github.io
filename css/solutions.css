@@ -209,19 +209,35 @@ nav{
     box-shadow:0 20px 45px rgba(0,0,0,.08);
 }
 
+.pillar-card{
+    background:#ffffff;
+    border:1px solid #ECECEC;
+    border-radius:18px;
+    padding:32px 22px;
+    transition:.35s;
+    min-height:260px;
+    text-align:center;
+}
+
+.pillar-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 20px 45px rgba(0,0,0,.08);
+}
+
 .pillar-icon{
     display:flex;
     align-items:center;
     justify-content:center;
-    width:44px;
-    height:44px;
-    border-radius:10px;
-    margin-bottom:22px;
+    width:100%;
+    margin:0 auto 20px;
+    background:none;
+    color:#0B1F3A;
 }
 
 .pillar-icon i{
-    width:20px;
-    height:20px;
+    width:38px;
+    height:38px;
+    stroke-width:1.75;
 }
 
 .pillar-card h3{
