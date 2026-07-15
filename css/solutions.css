@@ -210,9 +210,18 @@ nav{
 }
 
 .pillar-icon{
-    display:block;
-    font-size:26px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:44px;
+    height:44px;
+    border-radius:10px;
     margin-bottom:22px;
+}
+
+.pillar-icon i{
+    width:20px;
+    height:20px;
 }
 
 .pillar-card h3{
