@@ -200,13 +200,31 @@ nav{
     padding:18px;
 }
 
-.thumb-1{ background:linear-gradient(135deg,#F5E8CB,#E8D4A0); }
-.thumb-2{ background:linear-gradient(135deg,#0B1F3A,#10284D); }
-.thumb-3{ background:linear-gradient(135deg,#E3F2FD,#BBDEFB); }
-.thumb-4{ background:linear-gradient(135deg,#0B1F3A,#071B36); }
-.thumb-5{ background:linear-gradient(135deg,#F8F9FB,#ECECEC); }
-.thumb-6{ background:linear-gradient(135deg,#10284D,#0B1F3A); }
+.article-thumb{
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
 
+.article-thumb::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to top, rgba(11,31,58,.75), rgba(11,31,58,.1));
+    border-radius:16px;
+}
+
+.article-thumb .article-cat{
+    position:relative;
+    z-index:1;
+}
+
+.thumb-1{ background-image:url('https://picsum.photos/seed/inventory/600/400'); }
+.thumb-2{ background-image:url('https://picsum.photos/seed/advertising/600/400'); }
+.thumb-3{ background-image:url('https://picsum.photos/seed/marketplace/600/400'); }
+.thumb-4{ background-image:url('https://picsum.photos/seed/profit/600/400'); }
+.thumb-5{ background-image:url('https://picsum.photos/seed/systems/600/400'); }
+.thumb-6{ background-image:url('https://picsum.photos/seed/audit/600/400'); }
 .article-cat{
     background:rgba(255,255,255,.85);
     color:#0B1F3A;
