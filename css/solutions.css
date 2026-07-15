@@ -412,7 +412,6 @@ nav{
 }
 
 .engagement-section .section-heading{
-    text-align:center;
     margin:0 auto 70px;
 }
 
@@ -459,9 +458,18 @@ nav{
 }
 
 .engagement-icon{
-    display:block;
-    font-size:26px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:22px;
+    color:#0B1F3A;
     margin-bottom:22px;
+}
+
+.engagement-icon i{
+    width:26px;
+    height:26px;
+    stroke-width:1.75;
 }
 
 .engagement-card h3{
