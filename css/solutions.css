@@ -362,8 +362,18 @@ nav{
 }
 
 .deliver-icon{
-    font-size:22px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:22px;
     flex-shrink:0;
+    color:#0B1F3A;
+}
+
+.deliver-icon i{
+    width:22px;
+    height:22px;
+    stroke-width:1.75;
 }
 
 .deliver-item h3{
