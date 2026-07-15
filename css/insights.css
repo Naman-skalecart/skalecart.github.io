@@ -1,1 +1,362 @@
+.section-tag{
+    display:inline-flex;
+    align-items:center;
+    padding:8px 18px;
+    border-radius:50px;
+    background:#F5E8CB;
+    color:#8B6A2F;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
 
+.insights-hero{
+    background:#ffffff;
+    padding:170px 0 80px;
+}
+
+.insights-hero .container{
+    width:900px;
+    max-width:90%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.insights-hero h1{
+    margin-top:20px;
+    font-size:46px;
+    line-height:1.25;
+    color:#0B1F3A;
+    letter-spacing:-1px;
+}
+
+.insights-hero p{
+    margin-top:22px;
+    font-size:18px;
+    line-height:1.8;
+    color:#666;
+    max-width:650px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.featured-article{
+    padding:20px 0 90px;
+    background:#ffffff;
+}
+
+.featured-article .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.featured-card{
+    display:grid;
+    grid-template-columns:45% 55%;
+    background:#F8F9FB;
+    border-radius:24px;
+    overflow:hidden;
+    text-decoration:none;
+    transition:.35s;
+}
+
+.featured-card:hover{
+    box-shadow:0 30px 70px rgba(0,0,0,.1);
+    transform:translateY(-4px);
+}
+
+.featured-image{
+    background:linear-gradient(135deg,#071B36 0%,#0B1F3A 60%,#10284D 100%);
+    min-height:340px;
+    display:flex;
+    align-items:flex-end;
+    padding:28px;
+}
+
+.featured-tag{
+    background:rgba(255,255,255,.1);
+    color:#C89B4B;
+    border:1px solid rgba(255,255,255,.15);
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.5px;
+    padding:8px 16px;
+    border-radius:50px;
+}
+
+.featured-content{
+    padding:48px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.featured-label{
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+    color:#C89B4B;
+    margin-bottom:16px;
+}
+
+.featured-content h2{
+    font-size:28px;
+    line-height:1.35;
+    color:#0B1F3A;
+    margin-bottom:16px;
+}
+
+.featured-content p{
+    font-size:15px;
+    line-height:1.8;
+    color:#666;
+    margin-bottom:20px;
+}
+
+.featured-meta{
+    display:flex;
+    gap:10px;
+    font-size:13px;
+    color:#999;
+}
+
+.category-filter{
+    padding:0 0 40px;
+    background:#ffffff;
+}
+
+.category-filter .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.filter-row{
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    border-bottom:1px solid #ECECEC;
+    padding-bottom:30px;
+}
+
+.filter-btn{
+    padding:10px 20px;
+    border-radius:50px;
+    border:1px solid #ECECEC;
+    background:#ffffff;
+    color:#555;
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    font-weight:500;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.filter-btn:hover{
+    border-color:#C89B4B;
+    color:#0B1F3A;
+}
+
+.filter-btn.active{
+    background:#0B1F3A;
+    border-color:#0B1F3A;
+    color:#ffffff;
+}
+
+.article-grid-section{
+    padding:70px 0 100px;
+    background:#ffffff;
+}
+
+.article-grid-section .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.article-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:32px;
+}
+
+.article-card{
+    text-decoration:none;
+    display:block;
+}
+
+.article-thumb{
+    height:180px;
+    border-radius:16px;
+    margin-bottom:20px;
+    display:flex;
+    align-items:flex-end;
+    padding:18px;
+}
+
+.thumb-1{ background:linear-gradient(135deg,#F5E8CB,#E8D4A0); }
+.thumb-2{ background:linear-gradient(135deg,#0B1F3A,#10284D); }
+.thumb-3{ background:linear-gradient(135deg,#E3F2FD,#BBDEFB); }
+.thumb-4{ background:linear-gradient(135deg,#0B1F3A,#071B36); }
+.thumb-5{ background:linear-gradient(135deg,#F8F9FB,#ECECEC); }
+.thumb-6{ background:linear-gradient(135deg,#10284D,#0B1F3A); }
+
+.article-cat{
+    background:rgba(255,255,255,.85);
+    color:#0B1F3A;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:.5px;
+    padding:6px 14px;
+    border-radius:50px;
+}
+
+.thumb-2 .article-cat,
+.thumb-4 .article-cat,
+.thumb-6 .article-cat{
+    background:rgba(255,255,255,.1);
+    color:#C89B4B;
+    border:1px solid rgba(255,255,255,.2);
+}
+
+.article-card h3{
+    font-size:19px;
+    line-height:1.4;
+    color:#0B1F3A;
+    margin-bottom:10px;
+    transition:.25s;
+}
+
+.article-card:hover h3{
+    color:#C89B4B;
+}
+
+.article-card p{
+    font-size:14px;
+    line-height:1.7;
+    color:#666;
+    margin-bottom:14px;
+}
+
+.article-meta{
+    font-size:13px;
+    color:#999;
+}
+
+.newsletter-section{
+    padding:0 0 100px;
+    background:#ffffff;
+}
+
+.newsletter-section .container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.newsletter-box{
+    background:#0B1F3A;
+    border-radius:24px;
+    padding:60px 60px;
+    display:grid;
+    grid-template-columns:55% 45%;
+    gap:40px;
+    align-items:center;
+}
+
+.section-tag.dark{
+    background:rgba(255,255,255,.08);
+    color:#C89B4B;
+    border:1px solid rgba(255,255,255,.12);
+}
+
+.newsletter-left h2{
+    margin-top:18px;
+    font-size:30px;
+    line-height:1.3;
+    color:#ffffff;
+    letter-spacing:-0.5px;
+}
+
+.newsletter-left p{
+    margin-top:16px;
+    font-size:15px;
+    color:rgba(255,255,255,.7);
+    line-height:1.7;
+}
+
+.newsletter-form{
+    display:flex;
+    gap:12px;
+}
+
+.newsletter-form input{
+    flex:1;
+    height:52px;
+    padding:0 20px;
+    border-radius:50px;
+    border:1px solid rgba(255,255,255,.15);
+    background:rgba(255,255,255,.05);
+    color:#ffffff;
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+}
+
+.newsletter-form input::placeholder{
+    color:rgba(255,255,255,.4);
+}
+
+.newsletter-form button{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    height:52px;
+    padding:0 24px;
+    border-radius:50px;
+    border:none;
+    background:#C89B4B;
+    color:#0B1F3A;
+    font-family:'Poppins',sans-serif;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    white-space:nowrap;
+}
+
+.newsletter-form button i{
+    width:16px;
+    height:16px;
+}
+
+.insights-cta{
+    padding:80px 0 120px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.insights-cta .container{
+    width:700px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.insights-cta h2{
+    font-size:32px;
+    line-height:1.3;
+    color:#0B1F3A;
+    letter-spacing:-0.5px;
+}
+
+.insights-cta p{
+    margin-top:18px;
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+}
+
+.insights-cta .gold-btn{
+    display:inline-block;
+    margin-top:30px;
+}
