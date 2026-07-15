@@ -72,11 +72,26 @@ nav{
 }
 
 .featured-image{
-    background:linear-gradient(135deg,#071B36 0%,#0B1F3A 60%,#10284D 100%);
+    background-image:url('https://picsum.photos/seed/growthstrategy/800/600');
+    background-size:cover;
+    background-position:center;
+    position:relative;
     min-height:340px;
     display:flex;
     align-items:flex-end;
     padding:28px;
+}
+
+.featured-image::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(135deg, rgba(7,27,54,.85) 0%, rgba(11,31,58,.7) 60%, rgba(16,40,77,.6) 100%);
+}
+
+.featured-tag{
+    position:relative;
+    z-index:1;
 }
 
 .featured-tag{
