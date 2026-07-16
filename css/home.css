@@ -24,7 +24,7 @@
         #0B1F3A 60%,
         #10284D 100%
     );
-    padding:180px 0 140px;
+    padding:120px 0 140px;
     text-align:center;
 }
 
@@ -91,7 +91,7 @@
     color:#666;
 }
 .home-challenges{
-    padding:100px 0;
+    padding:80px 0;
     background:#F8F9FB;
 }
 
@@ -149,7 +149,7 @@
     line-height:1.7;
 }
 .home-philosophy{
-    padding:100px 0;
+    padding:80px 0;
     background:#ffffff;
 }
 
@@ -219,7 +219,7 @@
     margin:0;
 }
 .home-solutions{
-    padding:100px 0;
+    padding:80px 0;
     background:#F8F9FB;
 }
 
@@ -362,7 +362,7 @@
     color:#0B1F3A;
 }
 .home-process{
-    padding:100px 0;
+    padding:80px 0;
     background:#ffffff;
 }
 
@@ -514,7 +514,7 @@
 }
 
 .home-final-cta{
-    padding:110px 0;
+    padding:90px 0;
     background:#ffffff;
     text-align:center;
 }
