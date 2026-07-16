@@ -545,3 +545,81 @@
     justify-content:center;
     gap:18px;
 }
+@media (max-width: 900px){
+
+    .home-hero-content h1{
+        font-size:36px;
+    }
+
+    .trust-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:30px;
+    }
+
+    .challenges-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .philosophy-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .solutions-preview-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .diagnostic-cta-layout{
+        grid-template-columns:1fr;
+    }
+
+    .diagnostic-cta-right{
+        margin-top:24px;
+    }
+
+    .home-process-steps{
+        grid-template-columns:repeat(2,1fr);
+        gap:40px 24px;
+    }
+
+    .home-process-steps::before{
+        display:none;
+    }
+
+    .testimonial-slide{
+        flex:0 0 280px;
+    }
+
+    .home-final-cta h2{
+        font-size:28px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .home-hero{
+        padding:140px 0 80px;
+    }
+
+    .home-hero-content h1{
+        font-size:30px;
+    }
+
+    .trust-grid,
+    .challenges-grid,
+    .solutions-preview-grid,
+    .home-process-steps{
+        grid-template-columns:1fr;
+    }
+
+    .home-final-cta h2{
+        font-size:26px;
+    }
+
+    .final-cta-buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+}
