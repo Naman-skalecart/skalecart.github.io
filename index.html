@@ -371,25 +371,91 @@ Start Growth Diagnostic
 
     <div class="container">
 
-        <div class="testimonial-box">
+        <div class="section-heading center">
 
-            <span class="quote-mark">&ldquo;</span>
-
-            <p class="testimonial-quote">
-                Skalecart didn't just manage our account—they helped us
-                understand our own business better. The clarity we got from
-                the diagnostic changed how we make decisions.
-            </p>
-
-            <span class="testimonial-source">
-                — Founder, Home &amp; Living Brand
+            <span class="section-tag">
+                WHAT SELLERS SAY
             </span>
+
+            <h2>
+                Real Problems. Real Results.
+            </h2>
+
+        </div>
+
+        <div class="testimonial-slider-wrap">
+
+            <button class="slider-arrow prev" onclick="scrollTestimonials(-1)">‹</button>
+
+            <div class="testimonial-track" id="testimonialTrack">
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Home &amp; Living</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Our ACOS was climbing every month with no clear reason. Skalecart found the real issue was our listing conversion rate, not the ads."</p>
+                    <span class="testi-source">— Founder, Home &amp; Living Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Beauty &amp; Personal Care</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"We kept running out of stock on our bestsellers. The diagnostic gave us a forecasting system we still use today."</p>
+                    <span class="testi-source">— Co-Founder, Beauty Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Kitchen &amp; Appliances</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Revenue was growing but our margins kept shrinking. They helped us understand exactly which SKUs were actually profitable."</p>
+                    <span class="testi-source">— Founder, Kitchen Appliances Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Fashion &amp; Apparel</span>
+                    <div class="testi-stars">★★★★☆</div>
+                    <p>"We were hesitant to expand to a new marketplace. Their readiness assessment saved us from launching too early."</p>
+                    <span class="testi-source">— Founder, Apparel Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Health &amp; Wellness</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Our team was making decisions without any real process. The systems they helped us build brought real accountability."</p>
+                    <span class="testi-source">— Operations Head, Wellness Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Electronics</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"We thought our ad spend was the problem. Turns out it was our pricing strategy the whole time. Wish we'd found this sooner."</p>
+                    <span class="testi-source">— Founder, Electronics Brand</span>
+                </div>
+
+                <div class="testimonial-slide">
+                    <span class="testi-category">Baby &amp; Kids</span>
+                    <div class="testi-stars">★★★★★</div>
+                    <p>"Genuinely felt like they cared about our business, not just closing a deal. The roadmap they gave us was extremely specific."</p>
+                    <span class="testi-source">— Co-Founder, Baby Products Brand</span>
+                </div>
+
+            </div>
+
+            <button class="slider-arrow next" onclick="scrollTestimonials(1)">›</button>
 
         </div>
 
     </div>
 
 </section>
+
+<script>
+function scrollTestimonials(direction) {
+    const track = document.getElementById('testimonialTrack');
+    const slide = track.querySelector('.testimonial-slide');
+    const slideWidth = slide.offsetWidth + 24;
+    track.scrollBy({ left: slideWidth * direction, behavior: 'smooth' });
+}
+</script>
 
 <section class="home-final-cta">
 
