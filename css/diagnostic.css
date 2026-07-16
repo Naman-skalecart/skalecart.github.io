@@ -737,3 +737,15 @@ nav{
     }
 
 }
+@media (max-width: 600px){
+
+    .diag-process,
+    .diag-outcome,
+    .diag-pricing,
+    .diag-urgency,
+    .diag-cta{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+}
