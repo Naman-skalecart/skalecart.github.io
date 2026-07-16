@@ -617,3 +617,88 @@ nav{
     line-height:1.8;
     margin-bottom:24px;
 }
+@media (max-width: 900px){
+
+    .hero-left h1{
+        font-size:36px;
+    }
+
+    .solutions-hero{
+        background-position:right -400px center;
+    }
+
+    .problems-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .problems-arrow{
+        transform:rotate(90deg);
+        padding-top:0;
+    }
+
+    .pillars-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .pillars-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .diagnose-steps{
+        grid-template-columns:repeat(2,1fr);
+        gap:40px 24px;
+    }
+
+    .diagnose-steps::before{
+        display:none;
+    }
+
+    .deliver-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .engagement-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .engagement-grid{
+        grid-template-columns:1fr;
+    }
+
+    .faq-grid{
+        grid-template-columns:1fr;
+    }
+
+    .solutions-cta-layout{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .solutions-hero{
+        padding:140px 0 80px;
+        background-position:right -600px center;
+    }
+
+    .hero-left h1{
+        font-size:28px;
+    }
+
+    .pillars-grid,
+    .diagnose-steps,
+    .deliver-grid{
+        grid-template-columns:1fr;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+}
