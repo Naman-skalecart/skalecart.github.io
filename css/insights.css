@@ -477,5 +477,12 @@ nav{
         padding-top:30px;
         padding-bottom:50px;
     }
+    .article-card h3{
+        font-size:17px;
+    }
+
+    .newsletter-box{
+        padding:28px 22px;
+    }
 
 }
