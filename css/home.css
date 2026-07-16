@@ -623,3 +623,30 @@
     }
 
 }
+
+@media (max-width: 600px){
+
+    .home-trust,
+    .home-challenges,
+    .home-philosophy,
+    .home-solutions,
+    .home-diagnostic-cta,
+    .home-process,
+    .home-testimonial,
+    .home-final-cta{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .section-heading.center{
+        margin-bottom:40px;
+    }
+
+    .home-hero-content p,
+    .philosophy-left p,
+    .solutions-preview-card p,
+    .challenge-card p{
+        line-height:1.6;
+    }
+
+}
