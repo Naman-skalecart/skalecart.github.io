@@ -675,3 +675,84 @@ FINAL CTA
     color:#ffffff;
 
 }
+@media (max-width: 900px){
+
+    .about-hero h1{
+        font-size:44px;
+    }
+
+    .story-grid{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .story-title{
+        position:static;
+    }
+
+    .learning-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .thinking-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .thinking-left{
+        position:static;
+    }
+
+    .clients-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+        text-align:center;
+    }
+
+    .clients-icon{
+        order:-1;
+    }
+
+    .success-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .stats-row{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .quote-box{
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:20px;
+    }
+
+    .cta-content h2{
+        font-size:32px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .about-hero{
+        padding:140px 0 80px;
+    }
+
+    .about-hero h1{
+        font-size:34px;
+    }
+
+    .learning-grid,
+    .stats-row{
+        grid-template-columns:1fr;
+    }
+
+    .about-hero .hero-buttons,
+    .cta-buttons{
+        flex-direction:column;
+        width:100%;
+    }
+
+}
