@@ -656,3 +656,84 @@ nav{
     background:#ffffff;
     color:#0B1F3A;
 }
+@media (max-width: 900px){
+
+    .diag-hero-left h1{
+        font-size:36px;
+    }
+
+    .diag-hero-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .snapshot-bar-row{
+        grid-template-columns:110px 1fr 36px;
+    }
+
+    .process-steps{
+        grid-template-columns:repeat(2,1fr);
+        gap:40px 24px;
+    }
+
+    .process-steps::before{
+        display:none;
+    }
+
+    .outcome-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .report-row{
+        grid-template-columns:1fr;
+        gap:16px;
+    }
+
+    .pricing-grid{
+        grid-template-columns:1fr;
+        max-width:500px;
+    }
+
+    .urgency-layout{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .diag-cta-layout{
+        grid-template-columns:1fr;
+        gap:24px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .diag-hero{
+        padding:140px 0 80px;
+    }
+
+    .diag-hero-left h1{
+        font-size:28px;
+    }
+
+    .process-steps{
+        grid-template-columns:1fr;
+    }
+
+    .hero-buttons,
+    .hero-trust-row{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .hero-buttons{
+        width:100%;
+    }
+
+    .hero-buttons a{
+        width:100%;
+        text-align:center;
+    }
+
+}
