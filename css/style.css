@@ -426,3 +426,137 @@ radial-gradient(circle,#fff 2px,transparent 2px);
 background-size:32px 32px;
 border-radius:50%;
 }
+.site-footer{
+    background:#081527;
+    padding:80px 0 0;
+}
+
+.footer-container{
+    width:1200px;
+    max-width:90%;
+    margin:0 auto;
+}
+
+.footer-top{
+    display:grid;
+    grid-template-columns:32% 18% 22% 28%;
+    gap:40px;
+    padding-bottom:60px;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.footer-logo{
+    height:44px;
+    margin-bottom:20px;
+}
+
+.footer-tagline{
+    font-size:14px;
+    line-height:1.8;
+    color:rgba(255,255,255,.6);
+    max-width:320px;
+    margin-bottom:24px;
+}
+
+.footer-contact{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin-bottom:24px;
+}
+
+.footer-contact-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:14px;
+    color:rgba(255,255,255,.7);
+}
+
+.footer-contact-item i,
+.footer-contact-item svg{
+    width:16px;
+    height:16px;
+    color:#C89B4B;
+    stroke-width:1.75;
+    flex-shrink:0;
+}
+
+.footer-contact-item a{
+    color:rgba(255,255,255,.7);
+    text-decoration:none;
+}
+
+.footer-contact-item a:hover{
+    color:#C89B4B;
+}
+
+.footer-social{
+    display:flex;
+    gap:12px;
+}
+
+.footer-social a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:38px;
+    height:38px;
+    border-radius:50%;
+    background:rgba(255,255,255,.05);
+    border:1px solid rgba(255,255,255,.1);
+    transition:.25s;
+}
+
+.footer-social a:hover{
+    background:#C89B4B;
+    border-color:#C89B4B;
+}
+
+.footer-social i,
+.footer-social svg{
+    width:16px;
+    height:16px;
+    color:#ffffff;
+    stroke-width:1.75;
+}
+
+.footer-links h4,
+.footer-trust h4,
+.footer-cta h4{
+    font-size:14px;
+    color:#ffffff;
+    margin-bottom:22px;
+    font-weight:600;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links a{
+    font-size:14px;
+    color:rgba(255,255,255,.6);
+    text-decoration:none;
+    margin-bottom:14px;
+    transition:.2s;
+}
+
+.footer-links a:hover{
+    color:#C89B4B;
+}
+
+.footer-trust{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-stat{
+    margin-bottom:18px;
+}
+
+.footer-stat strong{
+    display:block;
+    font-size:20px;
+    color:#C89B4B;
