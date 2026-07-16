@@ -702,3 +702,18 @@ nav{
     }
 
 }
+
+@media (max-width: 600px){
+
+    .problems-section,
+    .pillars-section,
+    .diagnose-section,
+    .deliver-section,
+    .engagement-section,
+    .faq-section,
+    .solutions-cta{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+}
