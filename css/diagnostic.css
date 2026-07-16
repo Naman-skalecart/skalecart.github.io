@@ -747,5 +747,14 @@ nav{
         padding-top:50px;
         padding-bottom:50px;
     }
+    .snapshot-card,
+    .report-mock,
+    .pricing-card{
+        padding:26px 22px;
+    }
+
+    .urgency-stat{
+        padding:18px 20px;
+    }
 
 }
