@@ -774,5 +774,16 @@ FINAL CTA
     .client-card p{
         line-height:1.6;
     }
+   .learning-card{
+        padding:24px 20px;
+    }
+
+    .client-card{
+        padding:28px 22px;
+    }
+
+    .quote-box{
+        padding:30px 24px;
+    }
 
 }
