@@ -207,13 +207,14 @@
 
             <div class="newsletter-right">
 
-                <form class="newsletter-form" onsubmit="return false;">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit">
-                        Subscribe
-                        <i data-lucide="arrow-right"></i>
-                    </button>
-                </form>
+                <form class="newsletter-form" id="newsletterForm">
+    <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+    <button type="submit">
+        <span id="newsletterBtnText">Subscribe</span>
+        <i data-lucide="arrow-right"></i>
+    </button>
+</form>
+<p id="newsletterMessage" class="newsletter-message"></p>
 
             </div>
 
@@ -361,6 +362,19 @@ function filterArticles(category, btn) {
     });
 }
 </script>
-    
+
+<script>
+document.getElementById('newsletterForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('newsletterEmail').value;
+    const msg = document.getElementById('newsletterMessage');
+
+    window.location.href = 'mailto:support@skalecart.com?subject=Newsletter Signup&body=Please subscribe this email: ' + encodeURIComponent(email);
+
+    msg.textContent = "Opening your email app to confirm subscription...";
+    msg.style.display = 'block';
+});
+</script>
+
 </body>
 </html>
