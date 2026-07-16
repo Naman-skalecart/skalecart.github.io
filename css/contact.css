@@ -161,3 +161,31 @@ nav{
     background:#ffffff;
     color:#0B1F3A;
 }
+@media (max-width: 900px){
+
+    .contact-left h1{
+        font-size:34px;
+    }
+
+    .contact-layout{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .contact-hero{
+        padding:140px 0 60px;
+    }
+
+    .contact-left h1{
+        font-size:28px;
+    }
+
+    .contact-card{
+        padding:30px 24px;
+    }
+
+}
