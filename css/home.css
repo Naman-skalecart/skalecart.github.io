@@ -648,5 +648,13 @@
     .challenge-card p{
         line-height:1.6;
     }
+    .challenge-card,
+    .solutions-preview-card{
+        padding:24px 20px;
+    }
+
+    .philosophy-item{
+        padding:20px 22px;
+    }
 
 }
