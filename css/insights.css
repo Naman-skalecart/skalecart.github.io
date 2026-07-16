@@ -234,12 +234,12 @@ nav{
     z-index:1;
 }
 
-.thumb-1{ background-image:url('https://picsum.photos/seed/inventory/600/400'); }
-.thumb-2{ background-image:url('https://picsum.photos/seed/advertising/600/400'); }
-.thumb-3{ background-image:url('https://picsum.photos/seed/marketplace/600/400'); }
-.thumb-4{ background-image:url('https://picsum.photos/seed/profit/600/400'); }
-.thumb-5{ background-image:url('https://picsum.photos/seed/systems/600/400'); }
-.thumb-6{ background-image:url('https://picsum.photos/seed/audit/600/400'); }
+.thumb-1{ background-image:url('../images/thumb-inventory.jpg'); }
+.thumb-2{ background-image:url('../images/thumb-acos.jpg'); }
+.thumb-3{ background-image:url('../images/thumb-marketplace.jpg'); }
+.thumb-4{ background-image:url('../images/thumb-revenue.jpg'); }
+.thumb-5{ background-image:url('../images/thumb-systems.jpg'); }
+.thumb-6{ background-image:url('../images/thumb-audit.jpg'); }
 .article-cat{
     background:rgba(255,255,255,.85);
     color:#0B1F3A;
