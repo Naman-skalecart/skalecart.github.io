@@ -404,3 +404,67 @@ nav{
     color:#C89B4B;
     display:none;
 }
+@media (max-width: 900px){
+
+    .insights-hero h1{
+        font-size:34px;
+    }
+
+    .featured-card{
+        grid-template-columns:1fr;
+    }
+
+    .featured-image{
+        min-height:220px;
+    }
+
+    .article-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .newsletter-box{
+        grid-template-columns:1fr;
+        gap:24px;
+        padding:40px;
+    }
+
+    .newsletter-form{
+        flex-direction:column;
+    }
+
+    .newsletter-form button{
+        width:100%;
+        justify-content:center;
+    }
+
+    .filter-row{
+        overflow-x:auto;
+        flex-wrap:nowrap;
+        padding-bottom:16px;
+    }
+
+    .filter-btn{
+        flex-shrink:0;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .insights-hero{
+        padding:140px 0 60px;
+    }
+
+    .insights-hero h1{
+        font-size:26px;
+    }
+
+    .article-grid{
+        grid-template-columns:1fr;
+    }
+
+    .newsletter-box{
+        padding:30px 24px;
+    }
+
+}
