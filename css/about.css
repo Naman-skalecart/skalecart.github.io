@@ -756,3 +756,23 @@ FINAL CTA
     }
 
 }
+@media (max-width: 600px){
+
+    .about-story,
+    .about-learnings,
+    .thinking-section,
+    .ideal-clients,
+    .success-section,
+    .about-cta{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .story-content p,
+    .learning-card p,
+    .thinking-checklist li,
+    .client-card p{
+        line-height:1.6;
+    }
+
+}
