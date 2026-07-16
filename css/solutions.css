@@ -715,5 +715,13 @@ nav{
         padding-top:50px;
         padding-bottom:50px;
     }
+    .pillar-card,
+    .engagement-card{
+        padding:24px 20px;
+    }
+
+    .faq-item{
+        padding:18px 20px;
+    }
 
 }
