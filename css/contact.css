@@ -73,7 +73,7 @@ nav{
     transform:translateY(-2px);
 }
 
-.contact-method i{
+.contact-method i,
 .contact-method svg{
     width:22px;
     height:22px;
