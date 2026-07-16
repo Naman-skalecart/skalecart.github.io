@@ -468,3 +468,14 @@ nav{
     }
 
 }
+@media (max-width: 600px){
+
+    .featured-article,
+    .article-grid-section,
+    .newsletter-section,
+    .insights-cta{
+        padding-top:30px;
+        padding-bottom:50px;
+    }
+
+}
